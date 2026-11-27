@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.Python
+venv/
+.venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# Local transcript and index cache data
+backend/CACHE_TRANSCRIPTS/
+backend/transcript_*.json
+backend/transcript_*.txt
+CACHE_TRANSCRIPTS/
+transcript_*.json
+transcript_*.txt
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
